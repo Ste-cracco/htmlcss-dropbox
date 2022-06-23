@@ -1,6 +1,6 @@
 * {
-    margin 0;
-    padding 0;
+    margin: 0;
+    padding: 0;
     box-sizing: content-box;
 }
 
@@ -14,18 +14,22 @@ ul, ol, li, menu {
 
 img {
     max-width: 100%;
-    display: inline-block;
-    align-self: center;
 }
 
 .flex {
     display: flex;
 }
 
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER */
 
 .header {
     align-content: center;
+    padding: 25px 12px;
 }
 
 header ul {
@@ -42,7 +46,7 @@ ul:last-child {
 }
 
 .bottone_header {
-    margin-right: 35px;
+    margin-right: 25px;
     background-color: #0061FF;
     color: white;
     padding: 9px 15px;
@@ -52,5 +56,59 @@ ul:last-child {
 header img {
     width: 127px;
     height: 25px;
-    padding-left: 15px;
+    padding: 0px 18px;
+    align-self: center;
+}
+
+/* MAIN */
+
+.container_large {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.background_azzurro {
+    background-color: #B4D0E7;
+}
+
+main h1 {
+    font-size: 55px;
+    font-weight: 800;
+    text-align: justify;
+    padding-top: 70px;
+}
+
+.raw {
+    padding-top: 45px;
+    height: 365px;
+    position: relative;
+}
+
+.descrizione {
+    width: 80%;
+    justify-content: space-between;
+    width: 35%;
+
+}
+
+.bottone {
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.bottone_blu {
+    background-color: #0061FF;
+    color: white;
+}
+
+.arrow {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.img_jumbo {
+    width: 70%;
+    position: absolute;
 }
