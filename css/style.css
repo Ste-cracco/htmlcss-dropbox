@@ -12,17 +12,30 @@ ul, ol, li, menu {
     list-style: none;
 }
 
+input {
+    appearance: none;
+}
+
 img {
     max-width: 100%;
 }
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex_column {
     display: flex;
     flex-direction: column;
+}
+
+.bottone {
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -62,6 +75,8 @@ header img {
 
 /* MAIN */
 
+/* SECTION 1 */
+
 .container_large {
     width: 1100px;
     margin: 0 auto;
@@ -78,24 +93,16 @@ main h1 {
     padding-top: 70px;
 }
 
-.raw {
+.raw_jumbo {
     padding-top: 45px;
     height: 365px;
     position: relative;
 }
 
-.descrizione {
+.descrizione_jumbo {
     width: 80%;
     justify-content: space-between;
     width: 35%;
-
-}
-
-.bottone {
-    width: 220px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
 }
 
 .bottone_blu {
@@ -111,4 +118,107 @@ main h1 {
 .img_jumbo {
     width: 70%;
     position: absolute;
+}
+
+/* SECTION 2 */
+
+.container_small {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.titolo_h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius:20px;
+}
+
+.raw {
+    padding-top: 60px;
+}
+
+.card {
+    min-height: 600px;
+    border: 1px solid lightgrey;
+    width: calc(calc(100% - 66px) / 3);
+}
+
+.card:nth-child(2n) {
+    margin: 0 30px;
+}
+.categoria {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+ .container_testo {
+    padding: 35px 30px;
+} 
+
+.card h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.prezzo {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.mese {
+    display: block;
+    color: grey;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.container_testo p {
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.info_card {
+    padding: 35px 0;
+}
+
+.container_testo .bottone{
+    margin-bottom: 20px;
+}
+
+.container_testo a {
+    color: #0061FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container_testo hr{
+    margin: 30px 0;
+    width: 40px;
+    color: lightgray;
+}
+
+.container_testo h4 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.container_testo li i {
+    color: #0061FF;
+}
+
+.container_testo ul li {
+    font-size: 14px;
+    padding: 10px 0;
 }
