@@ -12,21 +12,27 @@
     <title>Dropbox</title>
 </head>
 <body>
-    <header class=" header flex">
-        <img src="img/logo-small.png" alt="Logo Dropbox">
-        <ul>
-            <li>Perchè Dropbox</li>
-            <li>Funzioni</li>
-            <li>Piani e Prezzi</li>
-        </ul>
-        <ul>
-            <li>Supporto</li>
-            <li>Contatta l'ufficio vendite</li>
-            <li>Accedi</li>
-            <li class="bottone_header">Inizia</li>
-        </ul>
+    <header class="header flex">
+        <figure class="flex">
+            <img src="img/logo-small.png" alt="Logo Dropbox">
+        </figure>
+        <nav class="flex">
+            <ul>
+                <li>Perchè Dropbox</li>
+                <li>Funzioni</li>
+                <li>Piani e Prezzi</li>
+            </ul>
+        </nav>
+            <ul>
+                <li>Supporto</li>
+                <li>Contatta l'ufficio vendite</li>
+                <li>Accedi</li>
+                <li class="bottone_header">Inizia</li>
+            </ul>
     </header>
     <main>
+
+        <!-- SECTION 1 -->
         <section class="background_azzurro">
             <div class="container_large">
                 <div>
@@ -49,20 +55,22 @@
             </div>
         </section>
 
+        <!-- !-- SECTION 2 --> -->
         <section>
             <div class="container_small">
                 <div class="titolo_h2">
                     <h2>Trova il piano business che fa per te</h2>
                 </div>
-                <div>
-                    <div class="flex">
-                        <input class="checkbox" type="checkbox" name="" id="">Fatturazione mensile
-                        <input class="checkbox" type="checkbox" name="" id="">Fatturazione annuale
-                    </div>
+                <!-- Checkbox -->
+                <div class="flex checkbox">
+                    <div class="flex circle circle_checked"> </div>
+                    <span>Fatturazione mensile </span>
+                    
+                    <div class="flex circle"> </div>
+                    <span>Fatturazione annaule </span>
                    
                 </div>
-                <div class="raw flex">
-
+                <div class="row section_2 flex">
                     <!-- PRIMA CARD -->
                     <div class="card">                        
                         <div>
@@ -125,7 +133,8 @@
                         </div>
                         <div class="container_testo">
                             <h3>Enterprise</h3>
-                            <span class="prezzo" id="padding_extra">Contattaci</span>
+                            <span class="prezzo">Contattaci</span>
+                            <span class="mese">.</span>
                             <div class="info_card">
                                 <p><i class="fa-solid fa-user"></i> 10 o più utenti</p>
                                 <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</p>
@@ -142,6 +151,7 @@
                             </ul>
                         </div>
                     </div>
+                </div>
 
                     <!-- QUARTA CARD -->
                     <div class="card_orizzontale">
@@ -160,10 +170,28 @@
                     </div>
                 </div>
             </div>
+
+        <!-- SECTION 3 -->
+        </section>
+        <section>
+            <div class="container_small">
+                <div class="row section_3 flex">
+                    <div class="col-1">
+                        <img src="img/partner.png" alt="Foto partner">
+                    </div>
+                    <div class="col-2">                        
+                        <h3>Entra in contatto con un partner Dropbox</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe voluptate esse, quidem suscipit cupiditate possimus?
+                        Soluta sunt quidem ad officiis sint quis nulla dignissimos commodi repellendus repudiandae assumenda, eius esse?</p>
+                        <div class="bottone bottone_section_3">Trova un partner</div>
+                    </div>
+                </div>             
+            </div>
         </section>
 
+        <!-- SECTION 4 -->
         <section>
-            
+
         </section>
 
     </main>
