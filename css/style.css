@@ -290,3 +290,25 @@ main h1 {
 .section_4 {
     margin-bottom: 160px;
 }
+
+/* SECTION 5 */
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cliente_1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid greenyellow;
+}
+
+.ocntainer_clienti {
+    width: 405px;
+}
+
+.row_section_5 {
+    justify-content: space-between;
+}
