@@ -316,22 +316,54 @@ main h1 {
 
 /* SECTION 5 */
 
- .row_section_5 {
-    margin-top: 150px;
+.section_5 a {
+    margin-bottom: 140px;
+    display: inline-block;
 }
 
 .col {
     width: calc(100% / 3);
+    background-color: #F5F5F5;
 }
 
-.col_50 {
+.box_cliente {
     width: 50%;
     aspect-ratio: 1/1;
-    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_info {
+    padding: 60px;
+}
+
+.container_info img {
+    width: 290px;
+}
+
+.container_info hr {
+    width: 100px;
+    margin: 50px 0;
+}
+
+.container_info cite,p {
+    font-size: 13px;
+    font-style: normal; 
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+.logo_box {
+    width: 50%;
+}
+
+.logo_box img {
+    filter: invert(99%) sepia(0%) saturate(2645%) hue-rotate(244deg) brightness(115%) contrast(100%);
 }
 
 .cliente_verde {
     background-color: #A2D39B;
+    box-shadow: inset 0px 0px 0px 15px #D1E9CD;
 }
 
 .cliente_bordo {
@@ -362,31 +394,6 @@ main h1 {
     background-color: #FFD830;
 }
 
-#cliente_florida {
-    width: 170px;
-    height: 35px;
-    padding-top: 140px;
-}
-
-.cliente img {
-    filter: invert(99%) sepia(0%) saturate(2645%) hue-rotate(244deg) brightness(115%) contrast(100%);
-    width: 170px;
-    height: 170px;
-    padding: 75px;  
-}
-
-.info img {
-    padding: 50px 0;
-}
-
-.info hr {
-    width: 100px;
-}
-
-.info p {
-    font-size: 11px;
-
-}
 
 /* SECTION 6 */
 
