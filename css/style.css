@@ -446,10 +446,47 @@ li.flex {
     justify-content: space-between;
 }
 
-li:nth-child(even) {
+.section_7 li:nth-child(even) {
     border: none;
 }
 
 .section_7 {
     margin-bottom: 150px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+footer .row {
+    justify-content: space-between;
+}
+
+footer .col {
+    padding: 50px 0;
+}
+
+footer li {
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+li:first-of-type {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer hr {
+    width: 100px;
+    color: white;
+}
+
+footer span {
+    padding: 35px 0;
+    color: gray;
+    display: inline-block;
+
 }
